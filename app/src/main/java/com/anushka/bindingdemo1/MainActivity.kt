@@ -26,7 +26,7 @@ class MainActivity : AppCompatActivity() {
 
     private fun displayGreeting() {
 
-
+        // comment
         val message = "Hello! "+ binding.nameEditText.text
         binding.greetingTextView.text = message
     }
